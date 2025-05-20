@@ -130,6 +130,7 @@ def _insta_gen(
                 },
             )
 
+           print(f"EMAIL: {email}\nUSERNAME: {user_name}\nPASSWORD: {password}\n")
             with open("cred.txt", "a") as f:
                 f.write("\n\n")
                 f.write(f"EMAIL: {email}\n")
